@@ -1,0 +1,63 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+
+	background-color: rgb(225, 225, 219);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frames-design{
+	height: 490px;
+	width: 360px;
+	padding: 2rem;
+	background-color: white;
+	box-shadow: 2px 2px 10px red, -2px -2px 10px white;
+	border-radius: 2rem;
+}
+
+.heading-tage-fo-calculator{
+	text-align: center;
+	font-size: 2.4rem;
+}
+#display{
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	text-align: right;
+	font-size: 2rem;
+	box-shadow: 2px 2px 10px green, inset -2px -2px 10px white;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+#display:active{
+	box-shadow: inset 2px 2px 6px darkblue, inset -2px -2px 6px lightyellow;
+}
+.button-groups{
+	display: flex;
+	justify-content: space-around;
+
+}
+.button{
+	width: 60px;
+	gap: 1rem;
+	height: 60px;
+	font-size: 2rem;
+	border:none;
+	outline: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	box-shadow: 3px 3px 9px pink, inset -3px -3px 9px white;
+}
+.button:active{
+	box-shadow: inset 2px 2px 6px greenyellow;ed, inset -2px -2px 6px white;
+}
+.button:hover{
+	background-color: pink;
+}
